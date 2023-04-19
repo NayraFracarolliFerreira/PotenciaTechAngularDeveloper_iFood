@@ -17,6 +17,6 @@ class carros
     }
 }
 
-const uno = new carros('Fiat', 'Roxo', 0.8);
+let uno = new carros('Fiat', 'Roxo', 0.8);
 console.log(uno);
 console.log(uno.CalcularPercurso(100, 5));
